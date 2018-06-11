@@ -1,0 +1,10 @@
+ext {
+    /**
+     * javaLibPath为jar文件路径, androidLibPath 为基础库路径
+     * 使用 “.parent” 或 “.absolutePath” 取决于你的实际项目深度,一般无需改动
+     * 当xxxLibPath与Git项目路径同级时, 无需修改此文件, 否则将xxxLibPath修改为你的基础库绝对路径
+     * 在各module中引用方法为 rootProject.ext.xxxLibPath
+     */
+    javaLibPath = rootDir.getParentFile().absolutePath + "/JavaLib"
+    androidLibPath = rootDir.getParentFile().absolutePath + "/AndroidLib"
+}

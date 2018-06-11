@@ -1,0 +1,10 @@
+include ':app'
+
+String libPath = rootDir.getParentFile().absolutePath + "/AndroidLib"
+
+include ':Android.SerialPort'
+project(':Android.SerialPort').projectDir = new File(libPath + "/Android.SerialPort")
+include(':Android.Hardware')
+project(':Android.Hardware').projectDir = new File(libPath + "/Android.Hardware")
+include(':Android.DeviceInfo')
+project(':Android.DeviceInfo').projectDir = new File(libPath + "/Android.DeviceInfo")

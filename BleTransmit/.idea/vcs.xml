@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../AndroidLib/Android.DeviceInfo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../AndroidLib/Android.Hardware" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../AndroidLib/Android.SerialPort" vcs="Git" />
+  </component>
+</project>
